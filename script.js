@@ -1,18 +1,15 @@
-let a=10;
-let b=20;
-// console.log(a+b);
-// console.log(b-a);
-// console.log(a*b);
-// console.log(b/a);
-// console.log(b%a);
-// console.log(--a);
-// console.log(++a);
-// console.log(a++);
-// console.log(a--);
-if(a<=b){
-    console.log(true);
-}
-else{
-    console.log(false);
-}
+var a=10;
+var b=20;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a--);
+console.log(--a);
+console.log(b++);
+console.log(++b);
 
+if(a==b)
+     console.log("True");
+else
+     console.log("False");
